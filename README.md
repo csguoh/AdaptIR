@@ -28,18 +28,78 @@
 
 
 ## <a name="visual_results"></a>:eyes:Visual Results On Different Restoration Tasks
-[<img src="assets/imgsli1.png" height="216"/>](https://imgsli.com/MjIyMjk5) [<img src="assets/imgsli7.png" height="216"/>](https://imgsli.com/MjIyMzAy) [<img src="figs/C3.png" height="216"/>](https://imgsli.com/MjIyMzEw) [<img src="figs/C4.png" height="216"/>](https://imgsli.com/MjIyMzA4)
+[<img src="assets/imgsli1.png" height="216"/>](https://imgsli.com/MjI1Njk3) [<img src="assets/imgsli7.png" height="216"/>](https://imgsli.com/MjI1NzIx) [<img src="assets/imgsli5.png" height="216"/>](https://imgsli.com/MjI1NzEx) [<img src="assets/imgsli2.png" height="228"/>](https://imgsli.com/MjI1NzAw)
 
-[<img src="figs/C5.png" height="215"/>](https://imgsli.com/MjIyMzA0) [<img src="figs/C6.png" height="215"/>](https://imgsli.com/MjIyMzAw) [<img src="figs/C7.png" height="215"/>](https://imgsli.com/MjIyMjk3)
+[<img src="assets/imgsli4.png" height="215"/>](https://imgsli.com/MjI1NzAz) [<img src="assets/imgsli3.png" height="215"/>](https://imgsli.com/MjI1NzAx) [<img src="assets/imgsli6.png" height="215"/>](https://imgsli.com/MjI1NzE2)
 
 
 
 ## <a name="news"></a> 🆕 News
 
+
+
 ## <a name="todo"></a> ☑️ TODO
 
 
 ## <a name="todo"></a> 🥇 Results
+
+We achieve state-of-the-art adaptation performance on various downstream image restoration tasks. Detailed results can be found in the paper.
+
+<details>
+<summary>Evaluation on Second-order Degradation (LR4&Noise30) (click to expand)</summary>
+
+<p align="center">
+  <img width="900" src="assets/SR&DN.png">
+</p>
+</details>
+
+
+<details>
+<summary>Evaluation on Classic SR (click to expand)</summary>
+
+<p align="center">
+  <img width="900" src="assets/calssicSR.png">
+</p>
+</details>
+
+
+<details>
+<summary>Evaluation on Denoise&DerainL (click to expand)</summary>
+
+<p align="center">
+  <img width="900" src="assets/Dn&DRL.png">
+</p>
+</details>
+
+
+<details>
+<summary>Evaluation on Heavy Rain Streak Removal (click to expand)</summary>
+
+<p align="center">
+  <img width="900" src="assets/DRH.png">
+</p>
+</details>
+
+
+<details>
+<summary>Evaluation on Low-light Image Enhancement (click to expand)</summary>
+
+<p align="center">
+  <img width="900" src="assets/low-light.png">
+</p>
+
+</details>
+
+
+<details>
+<summary>Evaluation on Model Scalability (click to expand)</summary>
+
+<p align="center">
+  <img width="900" src="assets/scalability.png">
+</p>
+
+</details>
+
 
 
 
