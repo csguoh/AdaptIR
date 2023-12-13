@@ -28,9 +28,9 @@
 
 
 ## <a name="visual_results"></a>:eyes:Visual Results On Different Restoration Tasks
-[<img src="assets/imgsli1.png" height="216"/>](https://imgsli.com/MjI1Njk3) [<img src="assets/imgsli7.png" height="216"/>](https://imgsli.com/MjI1NzIx) [<img src="assets/imgsli5.png" height="216"/>](https://imgsli.com/MjI1NzEx) [<img src="assets/imgsli2.png" height="228"/>](https://imgsli.com/MjI1NzAw)
+[<img src="assets/imgsli1.png" height="150"/>](https://imgsli.com/MjI1Njk3) [<img src="assets/imgsli7.png" height="150"/>](https://imgsli.com/MjI1NzIx) [<img src="assets/imgsli5.png" height="150"/>](https://imgsli.com/MjI1NzEx) [<img src="assets/imgsli2.png" height="150"/>](https://imgsli.com/MjI1NzAw)
 
-[<img src="assets/imgsli4.png" height="215"/>](https://imgsli.com/MjI1NzAz) [<img src="assets/imgsli3.png" height="215"/>](https://imgsli.com/MjI1NzAx) [<img src="assets/imgsli6.png" height="215"/>](https://imgsli.com/MjI1NzE2)
+[<img src="assets/imgsli4.png" height="150"/>](https://imgsli.com/MjI1NzAz) [<img src="assets/imgsli3.png" height="150"/>](https://imgsli.com/MjI1NzAx) [<img src="assets/imgsli6.png" height="150"/>](https://imgsli.com/MjI1NzE2)
 
 
 
@@ -95,7 +95,7 @@ We achieve state-of-the-art adaptation performance on various downstream image r
 <summary>Evaluation on Model Scalability (click to expand)</summary>
 
 <p align="center">
-  <img width="900" src="assets/scalability.png">
+  <img width="900" src="assets/scalabiltity.png">
 </p>
 
 </details>
