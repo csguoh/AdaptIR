@@ -7,7 +7,7 @@
 [[Paper](https://arxiv.org/abs/2308.15070)]  [[Suppl](https://0x3f3f3f3fun.github.io/projects/diffbir/)] [Project Page]
 
 
-Hang Guo, [Tao Dai](https://cstaodai.com/), [Yuanchao Bai](https://scholar.google.com/citations?user=hjYIFZcAAAAJ&hl=zh-CN), Bin Chen, [Shu-Tao Xia](https://scholar.google.com/citations?hl=zh-CN&user=koAXTXgAAAAJ), Zexuan Zhu
+[Hang Guo](https://github.com/csguoh), [Tao Dai](https://cstaodai.com/), [Yuanchao Bai](https://scholar.google.com/citations?user=hjYIFZcAAAAJ&hl=zh-CN), Bin Chen, [Shu-Tao Xia](https://scholar.google.com/citations?hl=zh-CN&user=koAXTXgAAAAJ), Zexuan Zhu
 
 
 <p align="center">
