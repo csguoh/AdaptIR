@@ -4,7 +4,7 @@
 
 ## AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models
 
-[[Paper](https://arxiv.org/abs/2308.15070)]  [[Suppl](https://0x3f3f3f3fun.github.io/projects/diffbir/)] [Project Page]
+[[Paper](https://arxiv.org/abs/2308.15070)]  [[Suppl]()] [Project Page]
 
 
 [Hang Guo](https://github.com/csguoh), [Tao Dai](https://cstaodai.com/), [Yuanchao Bai](https://scholar.google.com/citations?user=hjYIFZcAAAAJ&hl=zh-CN), Bin Chen, [Shu-Tao Xia](https://scholar.google.com/citations?hl=zh-CN&user=koAXTXgAAAAJ), Zexuan Zhu
@@ -44,6 +44,7 @@
 ## <a name="todo"></a> ☑️ TODO
 
 - [x] Arixv version
+- [ ] Supplementary matrial
 - [ ] Project page
 - [ ] Release code
 - [ ] Pretrained weights
@@ -125,7 +126,7 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Acknowledgement
 
-This code is based on [AirNet](), [IPT]() and [EDT](). Thanks for their awesome work.
+This code is based on [AirNet](https://github.com/XLearning-SCU/2022-CVPR-AirNet), [IPT](https://github.com/huawei-noah/Pretrained-IPT) and [EDT](https://github.com/fenglinglwb/EDT). Thanks for their awesome work.
 
 ## Contact
 
