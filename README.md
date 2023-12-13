@@ -116,12 +116,7 @@ We achieve state-of-the-art adaptation performance on various downstream image r
 Please cite us if our work is useful for your research.
 
 ```
-@article{2023diffbir,
-  author    = {Xinqi Lin, Jingwen He, Ziyan Chen, Zhaoyang Lyu, Ben Fei, Bo Dai, Wanli Ouyang, Yu Qiao, Chao Dong},
-  title     = {DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior},
-  journal   = {arxiv},
-  year      = {2023},
-}
+
 ```
 
 ## License
