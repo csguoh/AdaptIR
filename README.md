@@ -28,7 +28,7 @@
 
 
 ## <a name="visual_results"></a>:eyes:Visual Results On Different Restoration Tasks
-[<img src="assets/imgsli1.png" height="150"/>](https://imgsli.com/MjI1Njk3) [<img src="assets/imgsli7.png" height="150"/>](https://imgsli.com/MjI1NzIx) [<img src="assets/imgsli5.png" height="150"/>](https://imgsli.com/MjI1NzEx) [<img src="assets/imgsli2.png" height="150"/>](https://imgsli.com/MjI1NzAw)
+[<img src="assets/imgsli1.png" height="153"/>](https://imgsli.com/MjI1Njk3) [<img src="assets/imgsli7.png" height="153"/>](https://imgsli.com/MjI1NzIx) [<img src="assets/imgsli5.png" height="153"/>](https://imgsli.com/MjI1NzEx) [<img src="assets/imgsli2.png" height="153"/>](https://imgsli.com/MjI1NzAw)
 
 [<img src="assets/imgsli4.png" height="150"/>](https://imgsli.com/MjI1NzAz) [<img src="assets/imgsli3.png" height="150"/>](https://imgsli.com/MjI1NzAx) [<img src="assets/imgsli6.png" height="150"/>](https://imgsli.com/MjI1NzE2)
 
@@ -36,12 +36,20 @@
 
 ## <a name="news"></a> 🆕 News
 
+- **2023-12-13:** Arixv paper available.
+- **2023-12-14:** This repo is released.
+
 
 
 ## <a name="todo"></a> ☑️ TODO
 
+- [x] Arixv version
+- [ ] Project page
+- [ ] Release code
+- [ ] Pretrained weights
+ 
 
-## <a name="todo"></a> 🥇 Results
+## <a name="results"></a> 🥇 Results
 
 We achieve state-of-the-art adaptation performance on various downstream image restoration tasks. Detailed results can be found in the paper.
 
@@ -58,7 +66,7 @@ We achieve state-of-the-art adaptation performance on various downstream image r
 <summary>Evaluation on Classic SR (click to expand)</summary>
 
 <p align="center">
-  <img width="900" src="assets/calssicSR.png">
+  <img width="500" src="assets/classicSR.png">
 </p>
 </details>
 
@@ -67,7 +75,7 @@ We achieve state-of-the-art adaptation performance on various downstream image r
 <summary>Evaluation on Denoise&DerainL (click to expand)</summary>
 
 <p align="center">
-  <img width="900" src="assets/Dn&DRL.png">
+  <img width="500" src="assets/Dn&DRL.png">
 </p>
 </details>
 
@@ -76,7 +84,7 @@ We achieve state-of-the-art adaptation performance on various downstream image r
 <summary>Evaluation on Heavy Rain Streak Removal (click to expand)</summary>
 
 <p align="center">
-  <img width="900" src="assets/DRH.png">
+  <img width="500" src="assets/DRH.png">
 </p>
 </details>
 
@@ -85,7 +93,7 @@ We achieve state-of-the-art adaptation performance on various downstream image r
 <summary>Evaluation on Low-light Image Enhancement (click to expand)</summary>
 
 <p align="center">
-  <img width="900" src="assets/low-light.png">
+  <img width="500" src="assets/low-light.png">
 </p>
 
 </details>
@@ -95,7 +103,7 @@ We achieve state-of-the-art adaptation performance on various downstream image r
 <summary>Evaluation on Model Scalability (click to expand)</summary>
 
 <p align="center">
-  <img width="900" src="assets/scalabiltity.png">
+  <img width="600" src="assets/scalabiltity.png">
 </p>
 
 </details>
@@ -103,7 +111,7 @@ We achieve state-of-the-art adaptation performance on various downstream image r
 
 
 
-## 🥰 Citation
+## <a name="cite"></a> 🥰 Citation
 
 Please cite us if our work is useful for your research.
 
