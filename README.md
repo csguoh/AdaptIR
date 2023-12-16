@@ -4,7 +4,7 @@
 
 ## AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models
 
-[[Paper](https://arxiv.org/pdf/2312.08881.pdf)]  [[Suppl]()] [Project Page]
+[[Paper](https://arxiv.org/pdf/2312.08881.pdf)]  [[Suppl]()] [Project Page][Zhihu(知乎)]
 
 
 [Hang Guo](https://github.com/csguoh), [Tao Dai](https://cstaodai.com/), [Yuanchao Bai](https://scholar.google.com/citations?user=hjYIFZcAAAAJ&hl=zh-CN), Bin Chen, [Shu-Tao Xia](https://scholar.google.com/citations?hl=zh-CN&user=koAXTXgAAAAJ), Zexuan Zhu
@@ -40,7 +40,7 @@ the problems of heavy computational cost in practice, due to the massive paramet
 
 ## <a name="news"></a> 🆕 News
 
-- **2023-12-12:** Arixv paper available.
+- **2023-12-12:** arXiv paper available.
 - **2023-12-16:** This repo is released.
 
 
