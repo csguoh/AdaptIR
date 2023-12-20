@@ -121,7 +121,12 @@ We achieve state-of-the-art adaptation performance on various downstream image r
 Please cite us if our work is useful for your research.
 
 ```
-
+@article{guo2023adaptir,
+  title={AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models},
+  author={Guo, Hang and Dai, Tao and Bai, Yuanchao and Chen, Bin and Xia, Shu-Tao and Zhu, Zexuan},
+  journal={arXiv preprint arXiv:2312.08881},
+  year={2023}
+}
 ```
 
 ## License
