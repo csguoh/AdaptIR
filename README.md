@@ -2,7 +2,7 @@
     <img src="assets/adaptir_logo.png" width="340">
 </p>
 
-## AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models
+## Parameter Efficient Adaptation for Image Restoration with Heterogeneous Mixture-of-Experts
 
 ## [[Paper](https://arxiv.org/pdf/2312.08881.pdf)] 
 
@@ -41,7 +41,7 @@
 - **2023-12-12:** arXiv paper available.
 - **2023-12-16:** This repo is released.
 - **2023-09-28:** 😊Our AdaptIR was accepted by NeurIPS2024!
-- **2024-10-19:**🔈The code is available now, enjoy yourself!
+- **2024-10-19:** 🔈The code is available now, enjoy yourself!
 
 
 
