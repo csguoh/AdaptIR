@@ -4,14 +4,12 @@
 
 ## AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models
 
-[[Paper](https://arxiv.org/pdf/2312.08881.pdf)]  [[Suppl]()] [Project Page][Zhihu(知乎)]
+## [[Paper](https://arxiv.org/pdf/2312.08881.pdf)] 
+
+[Hang Guo](https://github.com/csguoh), [Tao Dai](https://cstaodai.com/), [Yuanchao Bai](https://scholar.google.com/citations?user=hjYIFZcAAAAJ&hl=zh-CN), Bin Chen, Xudong Ren, Zexuan Zhu, [Shu-Tao Xia](https://scholar.google.com/citations?hl=zh-CN&user=koAXTXgAAAAJ)
 
 
-[Hang Guo](https://github.com/csguoh), [Tao Dai](https://cstaodai.com/), [Yuanchao Bai](https://scholar.google.com/citations?user=hjYIFZcAAAAJ&hl=zh-CN), Bin Chen, [Shu-Tao Xia](https://scholar.google.com/citations?hl=zh-CN&user=koAXTXgAAAAJ), Zexuan Zhu
-
-
-> **Abstract:**  Pre-training has shown promising results on various image restoration tasks, which is usually followed by full finetuning for each specific downstream task (e.g., image denoising). However, such full fine-tuning usually suffers from
-the problems of heavy computational cost in practice, due to the massive parameters of pre-trained restoration models, thus limiting its real-world applications. Recently, Parameter Efficient Transfer Learning (PETL) offers an efficient alternative solution to full fine-tuning, yet still faces great challenges for pre-trained image restoration models, due to the diversity of different degradations. To address these issues, we propose AdaptIR, a novel parameter efficient transfer learning method for adapting pre-trained restoration models. Specifically, the proposed method consists of a multi-branch inception structure to orthogonally capture local spatial, global spatial, and channel interactions. In this way, it allows powerful representations under a very low parameter budget. Extensive experiments demonstrate that the proposed method can achieve comparable or even better performance than full fine-tuning, while only using 0.6% parameters.
+> **Abstract:**  Designing single-task image restoration models for specific degradation has seen great success in recent years. To achieve generalized image restoration, all-in-one methods have recently been proposed and shown potential for multiple restoration tasks using one single model. Despite the promising results, the existing all-in-one paradigm still suffers from high computational costs as well as limited generalization on unseen degradations. In this work, we introduce an alternative solution to improve the generalization of image restoration models. Drawing inspiration from recent advancements in Parameter Efficient Transfer Learning (PETL), we aim to tune only a small number of parameters to adapt pre-trained restoration models to various tasks. However, current PETL methods fail to generalize across varied restoration tasks due to their homogeneous representation nature. To this end, we propose AdaptIR, a Mixture-of-Experts (MoE) with orthogonal multi-branch design to capture local spatial, global spatial, and channel representation bases, followed by adaptive base combination to obtain heterogeneous representation for different degradations. Extensive experiments demonstrate that our AdaptIR achieves stable performance on single-degradation tasks, and excels in hybrid-degradation tasks, with fine-tuning only 0.6% parameters for 8 hours.
 
 
 <p align="center">
@@ -42,17 +40,18 @@ the problems of heavy computational cost in practice, due to the massive paramet
 
 - **2023-12-12:** arXiv paper available.
 - **2023-12-16:** This repo is released.
+- **2023-09-28:** 😊Our AdaptIR was accepted by NeurIPS2024!
+- **2024-10-19:**🔈The code is available now, enjoy yourself!
 
 
 
 ## <a name="todo"></a> ☑️ TODO
 
 - [x] arXiv version
-- [ ] Supplementary matrial
-- [ ] Project page
-- [ ] Release code
-- [ ] Pretrained weights
- 
+- [x] Release code
+- [ ] More detailed introductions of README file 
+- [ ] Further improvements
+
 
 ## <a name="results"></a> 🥇 Results
 
@@ -110,9 +109,29 @@ We achieve state-of-the-art adaptation performance on various downstream image r
 <p align="center">
   <img width="600" src="assets/scalabiltity.png">
 </p>
-
 </details>
 
+
+
+
+
+## <a name="results"></a> Datasets & Models Preparation
+
+### Datasets
+
+Since this work involves various restoration tasks, you may collect the training and testing datasets you need from existing repos, such as [Basicsr](https://github.com/XPixelGroup/BasicSR/blob/master/docs/DatasetPreparation.md), [Restormer](https://github.com/swz30/Restormer/tree/main), and [PromptIR](https://github.com/va1shn9v/PromptIR/blob/main/INSTALL.md).
+
+
+
+
+### Pre-trained weights
+
+- IPT pre-trained models
+download the `IPT_pretrain` with the [link](https://drive.google.com/drive/folders/1MVSdUX0YBExauG0fFz4ANiWTrq9xZEj7) of the [IPT repo](https://github.com/huawei-noah/Pretrained-IPT).
+
+
+- EDT pre-trained models
+download the `SRx2x3x4_EDTB_ImageNet200K.pth` with the [link](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155137927_link_cuhk_edu_hk/Eikt_wPDrIFCpVpiU0zYNu0BwOhQIHgNWuH1FYZbxZhq_w?e=bVEVeW) of the [EDT repo](https://github.com/fenglinglwb/EDT)
 
 
 
