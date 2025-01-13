@@ -42,14 +42,14 @@
 - **2023-12-16:** This repo is released.
 - **2023-09-28:** 😊Our AdaptIR was accepted by NeurIPS2024!
 - **2024-10-19:** 🔈The code is available now, enjoy yourself!
-
+- **2025-01-13:** Updated README file with detailed instruciton.
 
 
 ## <a name="todo"></a> ☑️ TODO
 
 - [x] arXiv version
 - [x] Release code
-- [ ] More detailed introductions of README file 
+- [x] More detailed introductions of README file 
 - [ ] Further improvements
 
 
@@ -132,6 +132,32 @@ download the `IPT_pretrain` with the [link](https://drive.google.com/drive/folde
 
 - EDT pre-trained models
 download the `SRx2x3x4_EDTB_ImageNet200K.pth` with the [link](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155137927_link_cuhk_edu_hk/Eikt_wPDrIFCpVpiU0zYNu0BwOhQIHgNWuH1FYZbxZhq_w?e=bVEVeW) of the [EDT repo](https://github.com/fenglinglwb/EDT)
+
+
+
+## <a name="training"></a> Training
+
+Our AdaptIR can adapt the pretrained models to various unseen downstream tasks, including Hybrid-Degradation (`lr4_noise30`, `lr4_jpeg30`), Image SR (`sr_2`,`sr_3`,`sr_4`), Image denoising (`denoise_30`, `denoise_50`), Image Deraining (`derainL`, `derainH`) and low-light image enhancement (`low_light`).
+
+One can adjust the param `de_type` in the `./options.py` file to train the specific downstream models. Note that only the very lightweight AdaptIR is tuned and thus it only consumes about 8 hours for downstream adaptation. 
+
+**One single 3090 with 24GB memory is enough for training.**
+
+You can simply run the following command to start training, with our default params:
+
+```
+python train.py
+```
+
+
+## <a name="testing"></a> Testing
+
+After training, the downstream weights can be found in the `./train_ckpt` path. You can load this ckpt to evaluate the performance of the downstream unseen tasks.
+
+```
+python test.py
+```
+
 
 
 
