@@ -166,11 +166,10 @@ python test.py
 Please cite us if our work is useful for your research.
 
 ```
-@article{guo2023adaptir,
-  title={AdaptIR: Parameter Efficient Multi-task Adaptation for Pre-trained Image Restoration Models},
-  author={Guo, Hang and Dai, Tao and Bai, Yuanchao and Chen, Bin and Xia, Shu-Tao and Zhu, Zexuan},
-  journal={arXiv preprint arXiv:2312.08881},
-  year={2023}
+@inproceedings{guoparameter,
+  title={Parameter Efficient Adaptation for Image Restoration with Heterogeneous Mixture-of-Experts},
+  author={Guo, Hang and Dai, Tao and Bai, Yuanchao and Chen, Bin and Ren, Xudong and Zhu, Zexuan and Xia, Shu-Tao},
+  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems}
 }
 ```
 
